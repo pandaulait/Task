@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 header{
@@ -11,13 +10,11 @@ header{
   height: 50px;
   background-color: #FF9A4B;
 }
-
 main{
   width: 960px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-
 }
 .flow-box{
   margin: 50px auto;
