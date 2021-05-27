@@ -1,0 +1,74 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main{
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+.flow-box{
+  margin: 50px auto;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h3{
+  margin-top: 15px;
+}
+.flow-content{
+  margin-top: 5px;
+}
+.flow-item{
+  width: 300px;
+  background-color: #eee;
+  margin-right: 30px;
+  padding:10px;
+  position: relative;
+}
+.flow-item:last-child{
+  margin-right: 0px;
+}
+.flow-img{
+  height: 150px;
+  width: 280px;
+  background-size: cover;
+
+}
+.icon{
+  display: inline-block;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #eee;
+  padding: 5px;
+}
+.img1{
+  background-image: url(img/flow01.png);
+}
+.img2{
+  background-image: url(img/flow02.png);
+}
+.img3{
+  background-image: url(img/flow03.png);
+}
+
+footer{
+  background-color: #AAAAAA;
+  height: 50px;
+  width: 100%;
+}
